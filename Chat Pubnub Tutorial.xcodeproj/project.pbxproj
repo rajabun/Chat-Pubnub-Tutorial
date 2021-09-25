@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E53B9BC26FCB01D0044B87B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53B9BB26FCB01D0044B87B /* ChatViewController.swift */; };
 		4EA3171926FC1B2F00505D3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3171826FC1B2F00505D3E /* AppDelegate.swift */; };
-		4EA3171B26FC1B2F00505D3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3171A26FC1B2F00505D3E /* SceneDelegate.swift */; };
 		4EA3171D26FC1B2F00505D3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3171C26FC1B2F00505D3E /* ViewController.swift */; };
 		4EA3172026FC1B2F00505D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA3171E26FC1B2F00505D3E /* Main.storyboard */; };
 		4EA3172226FC1B3200505D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA3172126FC1B3200505D3E /* Assets.xcassets */; };
 		4EA3172526FC1B3200505D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA3172326FC1B3200505D3E /* LaunchScreen.storyboard */; };
 		4EA3173026FC1B3300505D3E /* Chat_Pubnub_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3172F26FC1B3300505D3E /* Chat_Pubnub_TutorialTests.swift */; };
 		4EA3173B26FC1B3300505D3E /* Chat_Pubnub_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3173A26FC1B3300505D3E /* Chat_Pubnub_TutorialUITests.swift */; };
+		CEB53EA61C072E7D99A8FC4B /* Pods_Chat_Pubnub_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DFF17154AAE8FCEAC98CAC /* Pods_Chat_Pubnub_Tutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49A6C23A77A3E7CDBCAEBC7D /* Pods-Chat Pubnub Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat Pubnub Tutorial.debug.xcconfig"; path = "Target Support Files/Pods-Chat Pubnub Tutorial/Pods-Chat Pubnub Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		4E53B9BB26FCB01D0044B87B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		4EA3171526FC1B2F00505D3E /* Chat Pubnub Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat Pubnub Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA3171826FC1B2F00505D3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EA3171A26FC1B2F00505D3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4EA3171C26FC1B2F00505D3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EA3171F26FC1B2F00505D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EA3172126FC1B3200505D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		4EA3173626FC1B3300505D3E /* Chat Pubnub TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chat Pubnub TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA3173A26FC1B3300505D3E /* Chat_Pubnub_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_Pubnub_TutorialUITests.swift; sourceTree = "<group>"; };
 		4EA3173C26FC1B3300505D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8040404DAD8D999C6A08005B /* Pods-Chat Pubnub Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat Pubnub Tutorial.release.xcconfig"; path = "Target Support Files/Pods-Chat Pubnub Tutorial/Pods-Chat Pubnub Tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		B2DFF17154AAE8FCEAC98CAC /* Pods_Chat_Pubnub_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_Pubnub_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB53EA61C072E7D99A8FC4B /* Pods_Chat_Pubnub_Tutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				4EA3172E26FC1B3300505D3E /* Chat Pubnub TutorialTests */,
 				4EA3173926FC1B3300505D3E /* Chat Pubnub TutorialUITests */,
 				4EA3171626FC1B2F00505D3E /* Products */,
+				973D1924A3F9A7A81CE3145F /* Pods */,
+				DEFF6DB6E73B5E4F60AF750F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +107,12 @@
 			isa = PBXGroup;
 			children = (
 				4EA3171826FC1B2F00505D3E /* AppDelegate.swift */,
-				4EA3171A26FC1B2F00505D3E /* SceneDelegate.swift */,
 				4EA3171C26FC1B2F00505D3E /* ViewController.swift */,
 				4EA3171E26FC1B2F00505D3E /* Main.storyboard */,
 				4EA3172126FC1B3200505D3E /* Assets.xcassets */,
 				4EA3172326FC1B3200505D3E /* LaunchScreen.storyboard */,
 				4EA3172626FC1B3200505D3E /* Info.plist */,
+				4E53B9BB26FCB01D0044B87B /* ChatViewController.swift */,
 			);
 			path = "Chat Pubnub Tutorial";
 			sourceTree = "<group>";
@@ -128,6 +135,23 @@
 			path = "Chat Pubnub TutorialUITests";
 			sourceTree = "<group>";
 		};
+		973D1924A3F9A7A81CE3145F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49A6C23A77A3E7CDBCAEBC7D /* Pods-Chat Pubnub Tutorial.debug.xcconfig */,
+				8040404DAD8D999C6A08005B /* Pods-Chat Pubnub Tutorial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DEFF6DB6E73B5E4F60AF750F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2DFF17154AAE8FCEAC98CAC /* Pods_Chat_Pubnub_Tutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EA3173F26FC1B3300505D3E /* Build configuration list for PBXNativeTarget "Chat Pubnub Tutorial" */;
 			buildPhases = (
+				13094B909DECB45F85903E74 /* [CP] Check Pods Manifest.lock */,
 				4EA3171126FC1B2F00505D3E /* Sources */,
 				4EA3171226FC1B2F00505D3E /* Frameworks */,
 				4EA3171326FC1B2F00505D3E /* Resources */,
+				53E0A4C5929E0AAF30190BA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +279,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13094B909DECB45F85903E74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chat Pubnub Tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E0A4C5929E0AAF30190BA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chat Pubnub Tutorial/Pods-Chat Pubnub Tutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chat Pubnub Tutorial/Pods-Chat Pubnub Tutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chat Pubnub Tutorial/Pods-Chat Pubnub Tutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EA3171126FC1B2F00505D3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4EA3171D26FC1B2F00505D3E /* ViewController.swift in Sources */,
+				4E53B9BC26FCB01D0044B87B /* ChatViewController.swift in Sources */,
 				4EA3171926FC1B2F00505D3E /* AppDelegate.swift in Sources */,
-				4EA3171B26FC1B2F00505D3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,38 +501,42 @@
 		};
 		4EA3174026FC1B3300505D3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A6C23A77A3E7CDBCAEBC7D /* Pods-Chat Pubnub Tutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85YSJX97S8;
 				INFOPLIST_FILE = "Chat Pubnub Tutorial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MuhammadRajab.Chat-Pubnub-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		4EA3174126FC1B3300505D3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8040404DAD8D999C6A08005B /* Pods-Chat Pubnub Tutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85YSJX97S8;
 				INFOPLIST_FILE = "Chat Pubnub Tutorial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MuhammadRajab.Chat-Pubnub-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
